@@ -153,6 +153,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\base_project\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\base_project\routes" />
     </key>
@@ -171,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602210467536</updated>
-      <workItem from="1602210468630" duration="4324000" />
+      <workItem from="1602210468630" duration="6418000" />
     </task>
     <servers />
   </component>
@@ -187,10 +190,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="545" y="325" width="445" height="264" key="ComposerInitDialogKey/0.0.1536.824@0.0.1536.824" timestamp="1602211660467" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602214758505">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602216802823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602214758505" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602216802823" />
     <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1602211510216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -207,9 +210,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602211510216" />
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1602212036675">
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1602217517846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1602212036675" />
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1602217517846" />
   </component>
 </project>
