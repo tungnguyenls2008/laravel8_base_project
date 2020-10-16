@@ -16,11 +16,16 @@
 
     <div class="main-menu">
         <ul class="js-clone-nav">
-            <li class="active"><a href="{{route('landing')}}">Home</a></li>
-            <li><a href="{{route('photo')}}">Photos</a></li>
-            <li><a href="{{route('bio')}}">Bio</a></li>
-            <li><a href="{{route('blog')}}">Blog</a></li>
-            <li><a href="{{route('contact')}}">Contact</a></li>
+            @php
+                $url = url()->current();
+                $route = app('router')->getRoutes($url)->match(app('request')->create($url))->getName();
+            @endphp
+            <li class=@if($route == 'landing')"active"@endif><a href="{{route('landing')}}">Home</a></li>
+            <li class=@if($route == 'gallery')"active"@endif><a href="{{route('gallery')}}">Gallery</a></li>
+            <li class=@if($route == 'photo')"active"@endif><a href="{{route('photo')}}">Photos</a></li>
+            <li class=@if($route == 'bio')"active"@endif><a href="{{route('bio')}}">Bio</a></li>
+            <li class=@if($route == 'blog')"active"@endif><a href="{{route('blog')}}">Blog</a></li>
+            <li class=@if($route == 'contact')"active"@endif><a href="{{route('contact')}}">Contact</a></li>
         </ul>
         <ul class="social js-clone-nav">
             <li><a href="#"><span class="icon-facebook"></span></a></li>
