@@ -13,11 +13,13 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
-        //
+
     ]);
+mix.sass('public/css/parallax-hover-cards.scss', 'public/css')
 mix.styles([
 
 ], 'public/css/all.css');
 mix.scripts([
 
 ], 'public/js/all.js');
+mix.react('public/js/parallax-hover-cards.jsx', 'public/js');

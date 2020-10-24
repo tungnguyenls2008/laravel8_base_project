@@ -19,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages/landing');
 })->name('landing');
+Route::get('/logo', function () {
+    return redirect('/');
+})->name('landing');
 Route::get('/gallery', function () {
     return view('pages/gallery');
 })->name('gallery');
@@ -34,7 +37,13 @@ Route::get('/blog', function () {
 Route::get('/contact', function () {
     return view('pages/contact');
 })->name('contact');
-
+Route::get('/single', function () {
+    return view('pages/single');
+})->name('single');
+Route::get('/form', function () {
+    return view('pages/form');
+})->name('form');
+Route::post('form-post', 'App\Http\Controllers\FormController@postHandle')->name('form-post');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

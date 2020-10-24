@@ -3,6 +3,7 @@
 <meta name="description" content="">
 
 <meta name="Saquib" content="Blade">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 <title>Checkout our layout</title>
 
@@ -26,3 +27,4 @@
 <link rel="stylesheet" href="{{asset('css/fancybox.min.css')}}">
 
 <link rel="stylesheet" href="{{asset('css/style.css')}}">
+<link rel="stylesheet" href="{{asset('css/parallax-hover-cards.css')}}">
